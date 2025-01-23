@@ -136,4 +136,8 @@ def format_response(response_text):
     return html.Ul(formatted_elements, style={"color": "#333", "lineHeight": "1.5"})
 
 if __name__ == "__main__":
-    app.run_server(debug=False)
+    app.run(
+        host = "localhost",
+        port=8000,
+        debug=False
+    )
