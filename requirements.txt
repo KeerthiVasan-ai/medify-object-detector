@@ -1,0 +1,4 @@
+dash==2.18.2
+dash-bootstrap-components==1.7.1
+google-generativeai==0.8.4
+dash-uploader==0.8.0
